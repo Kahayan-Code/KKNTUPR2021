@@ -1,2 +1,2 @@
 # KKNTUPR2021
-Sistem Information Desa
+Sistem Informasi Desa
