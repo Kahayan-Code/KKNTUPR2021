@@ -15,6 +15,9 @@ class CreateOrganizationStructuresTable extends Migration
     {
         Schema::create('organization_structures', function (Blueprint $table) {
             $table->id();
+            $table->text('name');
+            $table->text('position');
+            $table->string('image');
             $table->timestamps();
         });
     }

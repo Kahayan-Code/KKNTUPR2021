@@ -15,6 +15,8 @@ class CreatePotenciesTable extends Migration
     {
         Schema::create('potencies', function (Blueprint $table) {
             $table->id();
+            $table->text('name');
+            $table->string('image');
             $table->timestamps();
         });
     }

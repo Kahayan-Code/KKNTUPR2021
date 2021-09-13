@@ -15,6 +15,9 @@ class CreateDemographiesTable extends Migration
     {
         Schema::create('demographies', function (Blueprint $table) {
             $table->id();
+            $table->string('name');
+            $table->string('total');
+            $table->string('image');
             $table->timestamps();
         });
     }
